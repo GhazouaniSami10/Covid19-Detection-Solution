@@ -2,9 +2,6 @@
 
 > Introduction
 
-Live Demonstration
-https://covid19-123.herokuapp.com/
-
 
 Les postes publiés sur Twitter reflètent l’interaction d’utilisateurs avec les événements réels qui se déroulent dans le monde, comme les élections,
 les événements sportifs et culturels, les catastrophes naturelles, etc. Ces événements réels ont un impact direct sur la quantité de tweets mises en ligne.
@@ -44,6 +41,7 @@ Dans cette partie on va Nettoyer les tweets et on applique les différentes tech
 >  Related Words
 
 Dans cette partie on va définir l’ensemble des mots relies à chaque thème, pour effectuer ce processus on a utilisé Related Words.
+
 Lien pour obtenir des mots connexes : https://relatedwords.org/
 
 
