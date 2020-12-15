@@ -24,6 +24,7 @@ une fois nous avons obtenir les credentials (identifiants) on peut collecter les
 
 Exemple : a l'aide de fichier https://github.com/SabrineKassdallah/Classification-des-Tweets/blob/master/culture.ipynb ,on peut collecter les tweets de culture, chaque fichier a deux paramètres très nécessaires text_query et count , text_query correspendent au catégorie des tweets  et count les nombres des tweets.
 Pour tous les restes des catégories on fait la même chose, à but d'exécuter n'importe quel fichier on a besoin deux librairies Tweepy et GetOldTweets3.
+
 Installation 
 
 !pip install tweepy
@@ -32,6 +33,7 @@ Installation
 
 > Concaténation de datasets
 
+Le role de cette fichier https://github.com/SabrineKassdallah/Classification-des-Tweets/blob/master/Tweets_Classification.ipynb est de mettre tous les tweets en même fichier csv .
 
 
 
