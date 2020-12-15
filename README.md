@@ -33,7 +33,7 @@ Installation
 
 Le role de cette fichier https://github.com/SabrineKassdallah/Classification-des-Tweets/blob/master/Tweets_Classification.ipynb est de mettre tous les tweets en même fichier csv .
 
-* Analyse des tweets
+##  Analyse des tweets
 
 Dans ce notebook on a tous les techniques nécessaires pour analyser les tweets https://github.com/SabrineKassdallah/Classification-des-Tweets/blob/master/Tweets_Classification.ipynb
 
