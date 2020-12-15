@@ -33,6 +33,10 @@ Installation
 
 Le role de cette fichier https://github.com/SabrineKassdallah/Classification-des-Tweets/blob/master/Tweets_Classification.ipynb est de mettre tous les tweets en même fichier csv .
 
+* Analyse des tweets
+
+Dans ce notebook on a tous les techniques nécessaires pour analyser les tweets https://github.com/SabrineKassdallah/Classification-des-Tweets/blob/master/Tweets_Classification.ipynb
+
 
 > Classification du texte 
 
@@ -43,6 +47,19 @@ Dans cette partie on va Nettoyer les tweets et on applique les différentes tech
 Dans cette partie on va définir l’ensemble des mots relies à chaque thème, pour effectuer ce processus on a utilisé Related Words.
 
 Lien pour obtenir des mots connexes : https://relatedwords.org/
+
+
+> Distance de Jaccard
+
+La similitude Jaccard est bonne pour les cas où la duplication n'a pas d'importance, la similitude cosinus est bonne pour les cas où la duplication est importante lors de l'analyse de la similitude du texte. Pour deux descriptions de produits, il sera préférable d'utiliser la similitude Jaccard car la répétition d'un mot ne réduit pas leur similitude.
+
+> KMeans Clustering
+
+Pour traiter les données d'apprentissage, l'algorithme K-means dans l'exploration de données commence par un premier groupe de centres de gravité (centroids) sélectionnés au hasard, qui sont utilisés comme points de départ pour chaque cluster, puis effectue des calculs itératifs (répétitifs) pour optimiser les positions des centres de gravité (centroids).
+
+> Clustered Datasets 
+
+Dans cette partie on va étudier ou bien obtenir le tweet le plus représentatif de chaque catégorie.
 
 
 * Kassdallah Sabine 
