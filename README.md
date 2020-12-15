@@ -1,4 +1,4 @@
-# Covid19 Detection Solution
+# Classification des Tweets 
 
 Live Demonstration
 https://covid19-123.herokuapp.com/
@@ -21,13 +21,13 @@ Cet algorithme est basé sur tensorflow Core 2.0 et OpenCv
 le résultat obtené par cette solution est une image qui indique si la personne est un covid ou bien normal.
 
 
-# Gladiators Teams
+* Kassdallah Sabine 
 
-Ben Sassi Oussama : https://www.linkedin.com/in/ben-sassi-oussama-267a63a9/
+LinkedIn : https://www.linkedin.com/in/kassdallah-sabrine-a91601165/
 
-Nagmar Med Hédi : https://www.linkedin.com/in/medhedinagmar/
+Github : https://github.com/SabrineKassdallah
 
-Ghazouani Sami : https://www.linkedin.com/in/sami-ghazouani-ing%C3%A9nieur/
+Mail : sabrinekasdallah2017@gmail.com
 
  
 
