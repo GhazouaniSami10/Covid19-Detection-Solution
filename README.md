@@ -15,6 +15,7 @@ devenir moins utilisés et d’autres peuvent apparaître. Donc il est incontour
 qui parlent du même sujet et qui représentent un fil de discussion, ce qui définit l’objectif principal de notre travail.
 
 > Préparation des tweets
+
 Pour résoudre notre problème ,on collecte un ensemble des tweets à travers API twitter ,ce processus nessesaite de créar une application en "https://developer.twitter.com/en " a fin d'obtenir [Api Key ]et [Access token]  
 
 
