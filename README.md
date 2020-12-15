@@ -37,7 +37,14 @@ Installation
 Le role de cette fichier https://github.com/SabrineKassdallah/Classification-des-Tweets/blob/master/Tweets_Classification.ipynb est de mettre tous les tweets en même fichier csv .
 
 
+> Classification du texte 
 
+Dans cette partie on va Nettoyer les tweets et on applique les différentes techniques de NLTK tel que : lemmatisation, tokenisation, suppression des arrêts, ponctuations, hashtags et mentions, pratiquement nous avons appliqué des expressions regulieures.
+
+>  Related Words
+
+Dans cette partie on va définir l’ensemble des mots relies à chaque thème, pour effectuer ce processus on a utilisé Related Words.
+Lien pour obtenir des mots connexes : https://relatedwords.org/
 
 
 * Kassdallah Sabine 
