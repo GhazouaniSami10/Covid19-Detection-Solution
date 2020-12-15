@@ -6,21 +6,16 @@ Live Demonstration
 https://covid19-123.herokuapp.com/
 
 
-La maladie à coronavirus 2019 (COVID-19) est une maladie infectieuse provoquée par un nouveau virus qui n'avait encore jamais été identifié chez l'être humain.
+Les postes publiés sur Twitter reflètent l’interaction d’utilisateurs avec les événements réels qui se déroulent dans le monde, comme les élections,
+les événements sportifs et culturels, les catastrophes naturelles, etc. Ces événements réels ont un impact direct sur la quantité de tweets mises en ligne.
 
-Ce virus provoque une maladie respiratoire (analogue à la grippe) avec des symptômes comme la toux, la fièvre et, dans les cas les plus sévères, une pneumonie. On peut s'en protéger en se lavant fréquemment les mains, et en évitant de se toucher le visage.
+Le suivi de ces événements sur les réseaux sociaux généralement et sur Twitter plus précisément est un défi audacieux pour les chercheurs, tout d’abord parce
+qu’un sujet sur Twitter est caractérisé par plusieurs termes (ces termes peuvent être des hashtags) qui peuvent changer dynamiquement où certains peuvent
+devenir moins utilisés et d’autres peuvent apparaître. Donc il est incontournable de trouver un moyen pour couvrir tous ces termes utilisés pendant le processus d’analyse. Cela représente l’un de nos objectifs dans ce travail. Mais avant de chercher les nouveaux termes, il faut pouvoir identifier les ensembles de tweets
+qui parlent du même sujet et qui représentent un fil de discussion, ce qui définit l’objectif principal de notre travail.
 
-Puisque ce virus est rapide et contagieux chez l'homme Pour ces raisons l'équipe "Gladiators" a décidé de faire une solution optimale pour aider le personnel médical de connaitre si le patient a cette épidémie ou non à partir de radiographie du thorax.
-
-Cette solution est sous forme d'un site web hébergé sur "Heroku" et a partir de ce site le médecin va choisir une photo pour le traiter, cette photo va subir un algorithme de deep learning qui permit si cette personne a le virus ou non avec une précision qui dépasse 90% .
-Notre dataset contient plus de 15000 photos pour ces raisons nous avons obtenu très haut précision
- 
-# Covid19 coté technique 
-
-pour tester notre solution localement  if suffit d'exécuter le fichier "test1 py" avec la commande "sudo python3 tests1.py" on a évité les arguments input output et on a ajouté le path de l'image qui l'on va tester dans texte1.py.
-Cet algorithme est basé sur tensorflow Core 2.0 et OpenCv
-
-le résultat obtené par cette solution est une image qui indique si la personne est un covid ou bien normal.
+> Préparation des tweets
+Pour résoudre notre problème ,on collecte un ensemble des tweets à travers API twitter ,ce processus nessesaite de créar une application en "https://developer.twitter.com/en " a fin d'obtenir [Api Key ]et [Access token]  
 
 
 * Kassdallah Sabine 
