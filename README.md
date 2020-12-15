@@ -16,7 +16,13 @@ qui parlent du même sujet et qui représentent un fil de discussion, ce qui dé
 
 > Préparation des tweets
 
-Pour résoudre notre problème ,on collecte un ensemble des tweets à travers API twitter ,ce processus nessesaite de créar une application en "https://developer.twitter.com/en " a fin d'obtenir [[Api Key]]et [[Access token]]  
+Pour résoudre notre problème ,on collecte un ensemble des tweets à travers API twitter ,ce processus nessesaite de créar une application en "https://developer.twitter.com/en " a fin d'obtenir Api Keyet Access token 
+
+> Préparation datasets 
+
+une fois nous avons obtenir les credentials (identifiants) on peut collecter les datasets par thème (les catégories que nous avons le traitées sont:economic, culture, social , health , politics et sport ).
+Exemple : a l'aide de fichier https://github.com/SabrineKassdallah/Classification-des-Tweets/blob/master/culture.ipynb ,on peut collecter les tweets de culture, chaque fichier a deux paramètres très nécessaires * text_query  et * count , text_query correspendent au catégorie des tweets  et count les nombres des tweets  
+
 
 
 * Kassdallah Sabine 
