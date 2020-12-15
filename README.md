@@ -11,11 +11,11 @@ qu’un sujet sur Twitter est caractérisé par plusieurs termes (ces termes peu
 devenir moins utilisés et d’autres peuvent apparaître. Donc il est incontournable de trouver un moyen pour couvrir tous ces termes utilisés pendant le processus d’analyse. Cela représente l’un de nos objectifs dans ce travail. Mais avant de chercher les nouveaux termes, il faut pouvoir identifier les ensembles de tweets
 qui parlent du même sujet et qui représentent un fil de discussion, ce qui définit l’objectif principal de notre travail.
 
-> Préparation des tweets
+### Préparation des tweets
 
 Pour résoudre notre problème ,on collecte un ensemble des tweets à travers API twitter ,ce processus nessesaite de créar une application en "https://developer.twitter.com/en " a fin d'obtenir Api Keyet Access token 
 
-> Préparation datasets 
+### Préparation de datasets 
 
 une fois nous avons obtenir les credentials (identifiants) on peut collecter les datasets par thème (les catégories que nous avons le traitées sont:economic, culture, social , health , politics et sport ).
 
@@ -29,7 +29,7 @@ Installation
 
 !pip install GetOldTweets3
 
-> Concaténation de datasets
+###  Concaténation de datasets
 
 Le role de cette fichier https://github.com/SabrineKassdallah/Classification-des-Tweets/blob/master/Tweets_Classification.ipynb est de mettre tous les tweets en même fichier csv .
 
@@ -38,26 +38,26 @@ Le role de cette fichier https://github.com/SabrineKassdallah/Classification-des
 Dans ce notebook on a tous les techniques nécessaires pour analyser les tweets https://github.com/SabrineKassdallah/Classification-des-Tweets/blob/master/Tweets_Classification.ipynb
 
 
-> Classification du texte 
+###  Classification du texte 
 
 Dans cette partie on va Nettoyer les tweets et on applique les différentes techniques de NLTK tel que : lemmatisation, tokenisation, suppression des arrêts, ponctuations, hashtags et mentions, pratiquement nous avons appliqué des expressions regulieures.
 
->  Related Words
+###  Related Words
 
 Dans cette partie on va définir l’ensemble des mots relies à chaque thème, pour effectuer ce processus on a utilisé Related Words.
 
 Lien pour obtenir des mots connexes : https://relatedwords.org/
 
 
-> Distance de Jaccard
+###  Distance de Jaccard
 
 La similitude Jaccard est bonne pour les cas où la duplication n'a pas d'importance, la similitude cosinus est bonne pour les cas où la duplication est importante lors de l'analyse de la similitude du texte. Pour deux descriptions de produits, il sera préférable d'utiliser la similitude Jaccard car la répétition d'un mot ne réduit pas leur similitude.
 
-> KMeans Clustering
+### KMeans Clustering
 
 Pour traiter les données d'apprentissage, l'algorithme K-means dans l'exploration de données commence par un premier groupe de centres de gravité (centroids) sélectionnés au hasard, qui sont utilisés comme points de départ pour chaque cluster, puis effectue des calculs itératifs (répétitifs) pour optimiser les positions des centres de gravité (centroids).
 
-> Clustered Datasets 
+### Clustered Datasets 
 
 Dans cette partie on va étudier ou bien obtenir le tweet le plus représentatif de chaque catégorie.
 
